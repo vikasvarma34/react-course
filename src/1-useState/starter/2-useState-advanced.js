@@ -6,7 +6,8 @@ const Index1 = () => {
  const intialArray = [
     {id: 123, firstName:"Vikas", lastName:"Pokala", age: 24,},
     {id: 456,firstName:"Indu", lastName:"Ande", age: 30,},
-    {id: 789,firstName:"Shiri", lastName:"Nenavath", age: 23,},
+    {id: 789,firstName:"Revathi", lastName:"Thipirishetty", age: 50,},
+    {id: 1011,firstName:"Srinivas", lastName:"Pokala", age: 56,},
  ]
  
  

@@ -1,15 +1,20 @@
-import React, {useState} from 'react';
+import React from 'react';
 import './App.css';
-
+import Index from "./1-useState/starter/1-useState-basics"
+import Index2 from "./1-useState/starter/2-useState-advanced"
+import Index3 from './1-useState/starter/3-useState-Example1';
 
 
 function App() {
   
-  useState();
+ 
 
   return (
     <div className="App">
-     <h1>Hello Hooks</h1>
+     <Index />
+     <Index2 />
+     <Index3 />
+     <Index3 />
     </div>
   );
 }

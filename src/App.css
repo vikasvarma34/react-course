@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  background-color: #bbedfb;
 }
 
 .App-logo {
@@ -38,4 +37,22 @@
   }
 }
 
+.cocktail-data{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  max-width: 1500px;
+  display: grid;
+  grid-template-columns: 3;
+}
 
+.cocktail-data li img{
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;border: solid 2px black;
+}
+
+@media screen and (min-width: 769px){
+  .cocktail-data{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

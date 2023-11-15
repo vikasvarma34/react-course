@@ -27,6 +27,7 @@ let newTodo = {
     id: new Date().getTime().toString(),
 }
 {
+    // eslint-disable-next-line
     setList([...list, newTodo])
     setMessage({
         text:"",

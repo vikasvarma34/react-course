@@ -1,5 +1,5 @@
 import SubChildComponent from "./SubChildComponent";
-import React, {useContext, useEffect} from "react";
+import React, {useContext} from "react";
 import {UserContext} from "../../context/userContext"
 
 
